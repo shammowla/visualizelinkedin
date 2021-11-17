@@ -29,8 +29,8 @@ app.layout = html.Div(children=[
     dcc.Upload(
         id='upload-data',
         children=html.Div([
-            'Upload connections.csv',
-            html.A('Select your Connections.csv')
+            'Upload ',
+            html.A('Connections.csv')
         ]),
         style={
             'width': '100%',
